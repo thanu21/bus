@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    background-color: lightcyan;
+        }
+input[type=text] {
+    width: 15%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 500px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+    
+h4 {
+           font-family: Agency FB;
+    text-align: center;
+           
+   }  
+p {
+           font-family: Trajan Pro;
+ text-align: center;
+   }
+    </style>
+    </head>
+<body>
+<form action="ins.php" method="post">
+<h4>Inserting Data</h4>
+    <pre>
+<p>
+Bus Name                                  <input type="text" name="name"/>
+Bus ID                                       <input type="text" name="id"/>
+Bus source		                  <input type="text" name="so"/>
+Bus Destination     	          <input type="text" name="de"/>
+Bus De_time		                  <input type="text" name="det"/>
+Bus Ar_time		                  <input type="text" name="art"/>
+
+	<input type="submit" value="Submit" name="sub"/>
+</p>
+	
+</form>
+</body>
+</html>
